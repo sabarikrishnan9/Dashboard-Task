@@ -167,10 +167,10 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.stat-1,
-.stat-2,
-.stat-3,
-.stat-4 {
+.stat-one,
+.stat-two,
+.stat-three,
+.stat-four {
   width: 45%;
   background-color: #fff;
   display: flex;
@@ -217,10 +217,10 @@ body {
   gap: 10px;
 }
 
-.income-1,
-.income-2,
-.income-3,
-.income-4 {
+.income-one,
+.income-two,
+.income-three,
+.income-four {
   width: 23%;
   display: grid;
   align-items: center;
@@ -230,18 +230,18 @@ body {
   border-radius: 10px;
 }
 
-.income-1 h6,
-.income-2 h6,
-.income-3 h6,
-.income-4 h6 {
+.income-one h6,
+.income-two h6,
+.income-three h6,
+.income-four h6 {
   font-weight: 300;
   margin-top: -30px;
 }
 
-.income-1 h1,
-.income-2 h1,
-.income-3 h1,
-.income-4 h1 {
+.income-one h1,
+.income-two h1,
+.income-three h1,
+.income-four h1 {
   color: #2e4765;
 }
 
@@ -558,7 +558,7 @@ td {
         width: 1100px;
     }
 
-    .stat-1,.stat-2,.stat-3,.stat-4{
+    .stat-one,.stat-two,.stat-three,.stat-four{
         width: 550px;
     }
 
@@ -577,12 +577,12 @@ td {
         height: 300px;
     }
 
-    .income-1,.income-2,.income-3,.income-4
+    .income-one,.income-two,.income-three,.income-four
     {
                 width: 250px;
     }
       
-    .stat-1,.stat-2,.stat-3,.stat-4{
+    .stat-one,.stat-two,.stat-three,.stat-four{
         width: 550px;
     }
     .recentactivity-image{
@@ -600,10 +600,10 @@ td {
     }
 } */
 @media screen and (max-width: 1025px) {
-  .stat-1,
-  .stat-2,
-  .stat-3,
-  .stat-4 {
+  .stat-one,
+  .stat-two,
+  .stat-three,
+  .stat-four {
     width: 345px;
     height: 150px;
     margin-right: 20px;
@@ -621,10 +621,10 @@ td {
     margin-right: 40px;
     border-radius: 10px;
   }
-  .income-1,
-  .income-2,
-  .income-3,
-  .income-4 {
+  .income-one,
+  .income-two,
+  .income-three,
+  .income-four {
     width: 150px;
   }
 
@@ -698,10 +698,10 @@ td {
     height: 900px;
   }
 
-  .income-1,
-  .income-2,
-  .income-3,
-  .income-4 {
+  .income-one,
+  .income-two,
+  .income-three,
+  .income-four {
     width: 150px;
   }
 
@@ -712,10 +712,10 @@ td {
   .wrapper .carousel {
     grid-auto-columns: calc((100% / 2) - 30px);
   }
-  .stat-1,
-  .stat-2,
-  .stat-3,
-  .stat-4 {
+  .stat-one,
+  .stat-two,
+  .stat-three,
+  .stat-four {
     width: 348px;
     margin-left: 15px;
     height: 150px;
@@ -857,10 +857,10 @@ td {
     width: 410px;
   }
 
-  .income-1,
-  .income-2,
-  .income-3,
-  .income-4 {
+  .income-one,
+  .income-two,
+  .income-three,
+  .income-four {
     width: 425px;
   }
 
@@ -873,10 +873,10 @@ td {
     grid-auto-columns: calc((100% / 2) - 30px);
   }
 
-  .stat-1,
-  .stat-2,
-  .stat-3,
-  .stat-4 {
+  .stat-one,
+  .stat-two,
+  .stat-three,
+  .stat-four {
     width: 100%;
     margin-left: 0px;
     height: 120px;
@@ -1014,10 +1014,10 @@ td {
     grid-auto-columns: calc((100% / 2) - 30px);
   }
 
-  .stat-1,
-  .stat-2,
-  .stat-3,
-  .stat-4 {
+  .stat-one,
+  .stat-two,
+  .stat-three,
+  .stat-four {
     width: 100%;
     margin-left: 0px;
     height: 120px;
@@ -1149,10 +1149,10 @@ td {
     margin-left: 0;
   }
 
-  .stat-1,
-  .stat-2,
-  .stat-3,
-  .stat-4 {
+  .stat-one,
+  .stat-two,
+  .stat-three,
+  .stat-four {
     width: 320px;
     margin-left: 10px;
     height: 120px;
